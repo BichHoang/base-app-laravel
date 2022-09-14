@@ -1,0 +1,29 @@
+{
+    "app_name": "App Name",
+    "title": {
+        "sign_in": "Sign in to your account"
+    },
+    "label": {
+        "email": "Your email:",
+        "password": "Password:"
+    },
+    "placeholder": {
+        "search": "Search"
+    },
+    "link": {
+        "forgot_password": "Forgot Password?"
+    },
+    "button": {
+        "sign_in": "Sign in"
+    },
+    "validation": {
+        "email": "This field must be a valid email address.",
+        "required": "This field is required",
+        "confirmed": "This field confirmation does not match.",
+        "min": "This field must be at least :min :type.",
+        "max": "This field must not be greater than :max :type."
+    },
+    "text": {
+        "characters": "characters"
+    }
+}

@@ -10,6 +10,8 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@types/js-cookie": "^3.0.2",
+        "@types/lodash": "^4.14.184",
         "autoprefixer": "^10.4.8",
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
@@ -19,9 +21,14 @@
     },
     "dependencies": {
         "@vue/compiler-sfc": "^3.2.38",
+        "js-cookie": "^3.0.1",
+        "nprogress": "^0.2.0",
+        "pinia": "^2.0.22",
         "ts-loader": "^9.3.1",
         "typescript": "^4.8.2",
-        "vue": "^3.2.36",
-        "vue-loader": "^17.0.0"
+        "vue": "^3.2.38",
+        "vue-i18n": "^9.2.2",
+        "vue-loader": "^17.0.0",
+        "vue-router": "^4.1.5"
     }
 }

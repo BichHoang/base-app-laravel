@@ -1,0 +1,29 @@
+{
+    "app_name": "App Name",
+    "title": {
+        "sign_in": "Đăng nhập vào tài khoản của bạn"
+    },
+    "label": {
+        "email": "Email của bạn:",
+        "password": "Mật khẩu:"
+    },
+    "placeholder": {
+        "search": "Tìm kiếm"
+    },
+    "link": {
+        "forgot_password": "Quên mật khẩu?"
+    },
+    "button": {
+        "sign_in": "Đăng nhập"
+    },
+    "validation": {
+        "email": "This field must be a valid email address.",
+        "required": "This field is required",
+        "confirmed": "This field confirmation does not match.",
+        "min": "This field must be at least :min :type.",
+        "max": "This field must not be greater than :max :type."
+    },
+    "text": {
+        "characters": "ký tự"
+    }
+}

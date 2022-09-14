@@ -5,6 +5,38 @@
         // this enables stricter inference for data properties on `this`
         "strict": true,
         "jsx": "preserve",
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+    },
+    "paths": {
+        "core/*": [
+            "resource/core/*"
+        ],
+        "components": [
+            "resource/components/index.ts"
+        ],
+        "components/*": [
+            "resource/components/*"
+        ],
+        "store/*": [
+            "resource/store/*"
+        ],
+        "store": [
+            "resource/store/index"
+        ],
+        "modules/*": [
+            "resource/modules/*"
+        ],
+        "router/*": [
+            "resource/router/*"
+        ],
+        "router": [
+            "resource/router/index"
+        ],
+        "utils/*": [
+            "resource/utils/*"
+        ],
     }
 }
